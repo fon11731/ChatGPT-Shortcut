@@ -17,7 +17,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://chat-gpt-shortcuts.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -189,29 +189,20 @@ const config = {
                 to: "/feedback",
               },
               {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
-              },
-              {
                 label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
+                href: "mailto:fon1173@163.com",
               },
               {
                 label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
+                href: "*",
               },
             ],
           },
           { type: "localeDropdown", position: "right" },
           {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
+            href: "https://github.com/fon11731/ChatGPT-Shortcut",
             position: "right",
             className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
           },
         ],
       },
